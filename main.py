@@ -1,5 +1,6 @@
 import os
 import re
+import requests  # ← добавлено!
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
